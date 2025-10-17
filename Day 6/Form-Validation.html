@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2>Register Form</h2>
+        </legend>
+        <form action="" autocomplete="on">
+            <table cellpadding="5px">
+                <tr>
+                    <td><label for="name">FullName</label></td>
+                    <td><input type="text" name="name" id="name" autofocus minlength="3" maxlength="20"> (max 20 char a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="lname">LastName</label></td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Surname"> (max 20 char a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date Of Birth</label></td>
+                    <td>
+                        <select name="dob" id="dob">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select name="dob" id="dob">
+                            <option value="1">January</option>
+                            <option value="2">Feburary</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                        </select>
+                        <select name="dob" id="dob">
+                            <option value="1">2000</option>
+                            <option value="2">2001</option>
+                            <option value="3">2002</option>
+                            <option value="4">2003</option>
+                            <option value="5">2004</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="Gender" checked>Male
+                         <input type="radio" name="Gender" id="Gender">Female
+                        </td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Email ID *</label></td>
+                    <td><input type="email" name="mail" id="mail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Mobile Number</label></td>
+                    <td><input type="tel" name="tel" id="tel" pattern="12345"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">Address</label></td>
+                    <td><textarea name="add" id="add" style="height: 160px; width: 250px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City *</label></td>
+                    <td><input type="text" name="city" id="city" value="Hyderabad" required readonly> (max 20 char a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="pin">Pin Code</label></td>
+                    <td><input type="tel" name="pin" id="pin" > (6 digit number)</td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td><input type="text" name="state" id="state" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td><input type="text" name="country" id="country"></td>
+                </tr>
+                <tr>
+                    <td><label for="hob">Hobbies</label></td>
+                    <td><input type="checkbox" name="hob" id="hob"> Drawing
+                        <input type="checkbox" name="hob" id="hob"> Singing
+                        <input type="checkbox" name="hob" id="hob"> Dancing
+                        <br>
+                        <input type="checkbox" name="hob" id="hob"> Others
+                        <input type="text" name="" id="" hidden> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="qua">Qualification</label></td>
+                    <td>
+                        <table style="text-align: center;">
+                            <tr>
+                                <td><b>Sl.No</b></td>
+                                <td><b>Examination</b></td>
+                                <td><b>Board</b></td>
+                                <td><b>Percentage</b></td>
+                                <td><b>Year of Passing</b></td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td><label for=""> Class X </label></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td> Class XII </td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td> Graduation </td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td> Master </td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cou">Courses <br> Applied For</label></td>
+                    <td><input type="checkbox" name="cou" id="cou"> BCA
+                        <input type="checkbox" name="cou" id="cou"> B.Com
+                        <input type="checkbox" name="cou" id="cou"> B.Sc
+                        <input type="checkbox" name="cou" id="cou"> B.A
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <p style="text-align: center;">
+                <button >Submit</button>
+            <button>Reset</button>
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
