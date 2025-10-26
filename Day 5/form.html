@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2>Register Form</h2>
+            
+        </legend>
+        <br><br>
+
+        <form action="https://www.google.com/" method="post">
+            <label for="name">First Name: </label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" id="phone">
+        <br><br>
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" id="mail">
+        <br><br>
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <label for="gen">Gender: </label>
+        <input type="radio" name="gen" id="gen">Male
+        <input type="radio" name="gen" id="gen">Female
+        <input type="radio" name="gen" id="gen">Others
+        <br><br>
+        <label for="hob">Hobbies: </label>
+        <input type="checkbox" name="hob" id="hob">Playing
+        <input type="checkbox" name="hob" id="hob">Running
+        <input type="checkbox" name="hob" id="hob">Dancing
+        <input type="checkbox" name="hob" id="hob">Reading
+        <input type="checkbox" name="hob" id="hob">Coding
+        <input type="checkbox" name="hob" id="hob">Writing
+         <br><br>
+         <label for="dob">DOB: </label>
+         <input type="date" name="dob" id="dob">
+         <br><br>
+         <label for="age">Age: </label>
+         <input type="number" name="age" id="age"> 
+         <br><br>
+         <label for="cou">Course: </label>
+         <input list="cou">
+         <datalist id="cou">
+                <option value="BBA">BBA</option>
+                <option value="BCOM">BCOM</option>
+                <option value="BSC">BSC</option>
+                <option value="BTECH">BTECH</option>
+                <option value="MBA">MBA</option>
+         </datalist>
+         <br><br>
+         <label for="add">Address: </label>
+         <textarea name="add" id="add"></textarea>
+         <br><br>
+         <label for="file">File: </label>
+         <input type="file" name="file" id="file">
+         <br><br>
+         <label for="bro">Browser: </label>
+         <select name="bro" id="bro">
+             <option value="Brave">Brave</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Vivaldi">Vivaldi</option>
+            <option value="Edge">Edge</option>
+            <option value="Opera">Opera</option>
+            <option value="FireFox">FireFox</option>
+         </select>
+         <br><br>
+            <!-- Uncommon input type tags in which label could also be taken -->
+
+            Range: <input type="range" name="" id="">
+            <br><br>
+            Month: <input type="month" name="" id="">
+            <br><br>
+            Week: <input type="week" name="" id="">
+            <br><br>
+            Day-Time-Local: <input type="datetime-local" name="" id="">
+            <br><br>
+            Search: <input type="search" name="" id="">
+            <br><br>
+            URL: <input type="url" name="" id="">
+            <br><br>
+            Color: <input type="color" name="" id="">
+            <br><br>
+            Image: <input type="image" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_hybrid&w=740" height="100px" width="100px" title="Image" alt="Image" name="" id="">
+            <br><br>
+            Hidden: <input type="hidden" name="" id="">
+         <br><br>
+        <button>Submit</button>
+        <!-- OR -->
+         <input type="submit" name="" id="">
+         <br><br>
+         <button>Reset</button>
+         <!-- OR -->
+          <input type="reset" name="" id="">
+        </form>
+    </fieldset>
+</body>
+</html>

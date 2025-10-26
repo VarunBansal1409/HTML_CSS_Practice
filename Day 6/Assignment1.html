@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1 style="text-decoration: underline; text-align: center;">Project Management</h1>
+    <div >
+    <form action="">
+        <table style="background-color: aquamarine; margin-left: auto; margin-right: auto;" cellpadding="20px" >
+            <tr>
+                <td><label for="name">Project Name</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Project Name"></td>
+            </tr>
+            <tr>
+                <td><label for="assign">Assigned to</label></td>
+                <td><select name="assign" id="assign">
+                    <option value="naveen">Mr Naveen</option>
+                    <option value="sunil">Mr Sunil</option>
+                    <option value="kavya">Ms Kavya</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="sd">Start Date</label></td>
+                <td><input type="date" name="sd" id="sd"></td>
+            </tr>
+            <tr>
+                <td><label for="ed">End Date</label></td>
+                <td><input type="date" name="ed" id="ed"></td>
+            </tr>
+            <tr>
+                <td><label for="pri">Priority</label></td>
+                <td><input type="radio" name="pri" id="pri">High
+                <input type="radio" name="pri" id="pri">Average
+            <input type="radio" name="pri" id="pri">Low 
+        </td>
+            </tr>
+            <tr>
+                <td><label for="des">Description</label></td>
+                <td><textarea name="des" id="des" style="height: 60px; width: 250px;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                            <button style="color: aliceblue; background-color: lime; border-color: lime;" >Submit</button>
+        &nbsp;&nbsp;
+        <button style="color: aliceblue; background-color: blueviolet; border-color: blueviolet;" >Clear</button>
+                </td>
+            </tr>
+        </table>    
+    </form>
+    </div>
+</body>
+</html>
